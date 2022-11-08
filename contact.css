@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-33999.jpg&fm=jpg&_gl=1*1xe0dj1*_ga*MTc4NzAwMzU3LjE2NjMzNDA1MDM.*_ga_8JE65Q40S6*MTY2Nzg3OTk1MS45LjEuMTY2Nzg4MDA2MC4wLjAuMA..);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+navbar {
+  display: inline;
+  padding: 100px;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.navbar2 {
+  display: inline;
+  padding: 100px;
+  position: fixed;
+  top: -100px;
+  right: -100px;
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+}
+
+.navbar2 a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.navbar2 a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.cont1 {
+  padding-top: 125px;
+  padding-left: 500px;
+  height: 200px;
+  width: 500px;
+}
+
+.cont1 p , .cont2 p{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.mno, .input_field{
+    padding: 10px;
+}
+
+.cont2{
+  padding-top: 40px;
+  padding-left: 500px;
+  height: 200px;
+  width: 400px;
+}
+textarea{
+  height: 100px;
+  width: 400px;
+  border: none;
+  border-bottom: 2px solid#adadad;
+  outline: none;
+  background: none;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #adadad;
+  outline: none;
+  background: none;
+}
+
+.btn{
+  padding: 10px;
+}
+button{
+  font-size: 20px;
+  background-color: black;
+  height: 35px ;
+  width: 90px;
+  color: white;
+  border-radius: 20px;
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?cs=srgb&dl=pexels-lisa-fotios-1024359.jpg&fm=jpg&_gl=1*usrovt*_ga*MTc4NzAwMzU3LjE2NjMzNDA1MDM.*_ga_8JE65Q40S6*MTY2Nzg4NzY0OC4xMS4xLjE2Njc4ODgxNDYuMC4wLjA.);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+  }
+
+.navbar {
+  display: inline;
+  padding: 100px;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.navbar2 {
+  display: inline;
+  padding: 100px;
+  position: fixed;
+  top: -100px;
+  right: -100px;
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+}
+
+.navbar2 a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.navbar2 a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.container{
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.form__title{
+  font-size: 40px;
+  padding: 10px;
+}
+
+form{
+  width: 800px;
+  height: 650px;
+  display: block;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.form__group{
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 70px;
+  height: 30px;
+  width: 300px;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid black;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #adadad;
+  outline: none;
+  background: none;
+}
+
+textarea{
+  height: 100px;
+  width: 500px;
+  border: none;
+  border-bottom: 2px solid#adadad;
+  outline: none;
+  background: none;
+  padding-top: 10px;
+}
+
+.btn{
+  margin: 30px;
+  font-size: 20px;
+  background-color: black;
+  height: 35px ;
+  width: 200px;
+  color: white;
+  border-radius: 20px;
+}
+
+select{
+  height: 30px;
+  width: 300px;
+}
